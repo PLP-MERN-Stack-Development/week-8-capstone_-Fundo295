@@ -48,11 +48,9 @@ Coming Soon...
 - 🐶 Clean, modern UI with mobile support
 
 ---
-
-
- ## PITCH DECK LINK:
+## pitch Deck Link
  https://gamma.app/docs/Copy-of-Startup-Pitch-Deck-Template--qi45nhtrae36jjk
- ---
+
 ## 🗂️ Project Structure
 pawfinder-sa/
 ├── backend/
