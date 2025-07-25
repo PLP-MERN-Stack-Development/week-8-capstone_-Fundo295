@@ -56,4 +56,38 @@ Coming Soon...
 git clone https://week-8-captone_-/Fundo295.git
 cd week-8-captone_-Fundo295
 
+## 🚀 Frontend Setup (React + Vite)
+bash
+Copy
+Edit
+cd frontend
+npm install
+Add .env in /frontend
+ini
+Copy
+Edit
+VITE_BACKEND_URL=https://your-backend.onrender.com/api
+Start Dev Server
+bash
+Copy
+Edit
+npm run dev
+## ⚙️ Backend Setup (Node + Express + MongoDB)
+bash
+Copy
+Edit
+cd backend
+npm install
+ Create .env in /backend
+ini
+Copy
+Edit
+MONGO_URI=your_mongo_db_uri
+JWT_SECRET=your_jwt_secret
+PORT=5000
+Start Server
+bash
+Copy
+Edit
+npm run dev
 
