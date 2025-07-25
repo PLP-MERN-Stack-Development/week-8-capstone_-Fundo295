@@ -49,60 +49,27 @@ Coming Soon...
 
 ---
 
-## 🧑‍💻 How to Run the Project Locally
 
-### 1. Clone the Repo
-```bash
-git clone https://week-8-captone_-/Fundo295.git
-cd week-8-captone_-Fundo295
-
- ### 🚀 Frontend Setup (React + Vite)
-cd frontend
-npm install
-
-##Add .env in /frontend
-Edit
-VITE_BACKEND_URL=https://your-backend.onrender.com/api
-
-##Start Dev Server
-npm run dev
-
-## ⚙️ Backend Setup (Node + Express + MongoDB)
-cd backend
-npm install
-
-## Create .env in /backend 
-''Edit
-MONGO_URI=your_mongo_db_uri
-JWT_SECRET=your_jwt_secret
-PORT=5000
-
-# Start Server
-npm run dev
-
-### pawfinder/
-├── frontend/
-│   ├── src/
-│   │   ├── api/axios.js
-│   │   ├── components/
-│   │   │   ├── Navbar.jsx
-│   │   │   └── PetCard.jsx
-│   │   ├── pages/
-│   │   │   ├── Home.jsx
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │   ├── ReportPet.jsx
-│   │   │   └── MyPets.jsx
-│   │   ├── App.jsx
-│   │   └── main.jsx
+ ## PITCH DECK LINK:
+ https://gamma.app/docs/Copy-of-Startup-Pitch-Deck-Template--qi45nhtrae36jjk
+ ---
+## 🗂️ Project Structure
+pawfinder-sa/
 ├── backend/
-│   ├── routes/
-│   │   ├── petRoutes.js
-│   │   └── authRoutes.js
 │   ├── models/
-│   │   └── Pet.js
+│   ├── routes/
 │   ├── middleware/
-│   │   └── authMiddleware.js
-│   ├── uploads/
 │   └── server.js
- ## PITCH DECK LINK:https://gamma.app/docs/Copy-of-Startup-Pitch-Deck-Template--qi45nhtrae36jjk
+├── frontend/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   └── PetCard.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Register.jsx
+│   │   ├── Login.jsx
+│   │   ├── ReportPet.jsx
+│   │   └── MyPets.jsx
+│   ├── App.jsx
+│   └── main.jsx
+
