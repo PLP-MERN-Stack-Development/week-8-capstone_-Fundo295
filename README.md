@@ -1,52 +1,59 @@
-# MERN Stack Capstone Project
+# 🐾 PawFinder SA
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+**PawFinder SA** is a full-stack web application designed to **help South Africans report, locate, and reunite lost or found pets** using modern tools like AI-powered image matching and SMS alerts. The app empowers everyday people, shelters, and animal lovers to collaborate in a single platform — with support for **low-data areas**, **townships**, and **multilingual communication**.
 
-## Assignment Overview
+---
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+## 🌟 What This Project Is For
 
-## Getting Started
+> 🧭 “Where did my dog go?”
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+Every year, over **500,000 pets go missing in South Africa**, but only a fraction ever find their way back. The current methods (Facebook groups, flyers, SPCA boards) are **fragmented, slow, and inaccessible to rural or low-income communities**.
 
-## Files Included
+PawFinder SA solves this problem by creating:
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+- 📸 A **centralized online system** for reporting missing or found pets.
+- 🔍 **AI-powered image recognition** to match lost and found reports faster.
+- 📱 **SMS & WhatsApp alerts** for users without reliable internet or smartphones.
+- 🌐 A platform that's **lightweight, mobile-friendly, and multilingual** (English, Zulu, Afrikaans).
+- 🤝 A community-driven approach that supports **animal shelters and local rescuers**.
 
-## Requirements
+---
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
+## 🔗 Live Demo
 
-## Project Ideas
+Coming Soon...
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
+---
 
-## Submission
+## 🛠️ Tech Stack
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+- **Frontend**: React + Vite + TailwindCSS
+- **Backend**: Node.js + Express + MongoDB
+- **Image Upload**: Multer + Cloudinary-ready
+- **AI Matching**: (Planned) TensorFlow / DeepAI
+- **SMS Alerts**: Twilio API
+- **Auth**: JWT (secure, token-based login)
+- **Deployment**: Vercel (Frontend), Render (Backend)
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
+---
 
-## Resources
+## 🧠 Key Features
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+- ✅ Report **lost or found** pets with images, location & contact info
+- 🖼️ Upload and match pet photos using backend image storage (Cloudinary/Multer)
+- 🔒 User **authentication** with protected routes
+- 📂 "My Pets" page shows user’s submitted reports
+- 🌍 Geo-based filtering (planned)
+- 🐶 Clean, modern UI with mobile support
+
+---
+
+## 🧑‍💻 How to Run the Project Locally
+
+### 1. Clone the Repo
+```bash
+git clone https://week-8-captone_-/Fundo295.git
+cd week-8-captone_-Fundo295
+
+
