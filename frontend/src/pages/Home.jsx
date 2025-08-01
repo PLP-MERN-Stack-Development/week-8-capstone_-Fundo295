@@ -16,7 +16,7 @@ const Home = () => {
     <div className="max-w-6xl mx-auto px-4 mt-10">
       {/* Logo & Tagline */}
       <img
-  src="/banner.png"
+  src="/banner.jpg"
   alt="Lost pet banner"
   className="w-full h-64 object-cover rounded-lg mb-10"
 />
