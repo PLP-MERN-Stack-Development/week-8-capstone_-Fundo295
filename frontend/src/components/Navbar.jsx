@@ -6,7 +6,7 @@ const Navbar = () => {
 
   const handleLogout = () => {
     localStorage.removeItem('token');
-    window.location.href = '/login';
+    window.location.href = '/Login';
   };
 
   return (
@@ -16,14 +16,14 @@ const Navbar = () => {
         <Link to="/">Home</Link>
         {token ? (
           <>
-            <Link to="/report">Report</Link>
-            <Link to="/mypets">My Pets</Link>
+            <Link to="/Report">Report</Link>
+            <Link to="/MyPets">My Pets</Link>
             <button onClick={handleLogout} className="ml-2">Logout</button>
           </>
         ) : (
           <>
-            <Link to="/login">Login</Link>
-            <Link to="/register">Register</Link>
+            <Link to="/Login">Login</Link>
+            <Link to="/Register">Register</Link>
           </>
         )}
       </div>

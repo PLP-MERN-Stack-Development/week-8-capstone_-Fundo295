@@ -11,9 +11,9 @@ const Register = () => {
   const register = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('/auth/register', form);
+      await axios.post('/auth/Register', form);
       alert('Registered successfully');
-      navigate('/login');
+      navigate('/Login');
     } catch {
       alert('Failed to register');
     }
