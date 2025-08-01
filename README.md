@@ -10,7 +10,7 @@
 
 Every year, over **500,000 pets go missing in South Africa**, but only a fraction ever find their way back. The current methods (Facebook groups, flyers, SPCA boards) are **fragmented, slow, and inaccessible to rural or low-income communities**.
 
-PawFinder SA solves this problem by creating:
+## PawFinder SA solves this problem by creating:
 
 - 📸 A **centralized online system** for reporting missing or found pets.
 - 🔍 **AI-powered image recognition** to match lost and found reports faster.
@@ -22,7 +22,8 @@ PawFinder SA solves this problem by creating:
 
 ## 🔗 Live Demo
 
-Coming Soon...
+Backend:
+https://paw-finder-5ula.onrender.com/api/pets
 
 ---
 
@@ -48,46 +49,26 @@ Coming Soon...
 - 🐶 Clean, modern UI with mobile support
 
 ---
+## pitch Deck Link
+ https://gamma.app/docs/Copy-of-Startup-Pitch-Deck-Template--qi45nhtrae36jjk
 
-## 🧑‍💻 How to Run the Project Locally
-
-### 1. Clone the Repo
-```bash
-git clone https://week-8-captone_-/Fundo295.git
-cd week-8-captone_-Fundo295
-
-## 🚀 Frontend Setup (React + Vite)
-bash
-Copy
-Edit
-cd frontend
-npm install
-Add .env in /frontend
-ini
-Copy
-Edit
-VITE_BACKEND_URL=https://your-backend.onrender.com/api
-Start Dev Server
-bash
-Copy
-Edit
-npm run dev
-## ⚙️ Backend Setup (Node + Express + MongoDB)
-bash
-Copy
-Edit
-cd backend
-npm install
- Create .env in /backend
-ini
-Copy
-Edit
-MONGO_URI=your_mongo_db_uri
-JWT_SECRET=your_jwt_secret
-PORT=5000
-Start Server
-bash
-Copy
-Edit
-npm run dev
+## 🗂️ Project Structure
+pawfinder-sa/
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   └── server.js
+├── frontend/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   └── PetCard.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Register.jsx
+│   │   ├── Login.jsx
+│   │   ├── ReportPet.jsx
+│   │   └── MyPets.jsx
+│   ├── App.jsx
+│   └── main.jsx
 
