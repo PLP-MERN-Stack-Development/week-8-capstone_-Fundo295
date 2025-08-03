@@ -2,10 +2,11 @@ const express = require('express');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const path = require('path'); // ✅ Needed to resolve paths
 
 // Import routes
 const petRoutes = require('./routes/petRoutes');
-const authRoutes = require('./routes/authRoutes'); // ✅ Add this
+const authRoutes = require('./routes/authRoutes');
 
 dotenv.config();
 
@@ -15,6 +16,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+
 // Root route (optional)
 app.get('/', (req, res) => {
   res.send('🐾 Paw Finder API is running...');
@@ -22,7 +24,7 @@ app.get('/', (req, res) => {
 
 // Routes
 app.use('/api/pets', petRoutes);
-app.use('/api/auth', authRoutes); // ✅ Connect auth routes
+app.use('/api/auth', authRoutes);
 
 // MongoDB connection
 mongoose
